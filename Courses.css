@@ -1,0 +1,74 @@
+.bg-02 {
+    padding: 50px 0px;
+    position: relative;
+    background: #fff;
+    z-index: 9; }
+    .bg-02 .featured-box {
+      position: relative;
+      display: block;
+      margin: 20px 0px;
+      padding: 10px 20px; }
+      .bg-02 .featured-box .content {
+        display: block;
+        position: relative;
+        padding: 10px 20px;
+        position: relative;
+        border: 1px solid #dddd;
+        border-top: 0px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px; }
+        .bg-02 .featured-box .content h3 {
+          font-size: 20px;
+          color: #002147; }
+        .bg-02 .featured-box .content p {
+          padding: 10px 0px;
+          color: #444444;
+          font-size: 14px;
+          font-weight: 500; }
+        .bg-02 .featured-box .content ol li {
+          display: inline-block;
+          padding: 0 6px 0 0;
+          border-right: 1px solid #dddd;
+          color: #444444;
+          font-size: 13px; }
+          .bg-02 .featured-box .content ol li:nth-child(3) {
+            border: none; }
+      .bg-02 .featured-box .feature-card {
+        position: relative;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+        overflow: hidden;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .bg-02 .featured-box .feature-card a {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          cursor: pointer;
+          width: 40px;
+          height: 40px;
+          border-radius: 50px;
+          transition: ease-in-out 0.9s;
+          visibility: hidden;
+          opacity: 0;
+          background: #002147;
+          z-index: 2; }
+        .bg-02 .featured-box .feature-card:hover a {
+          visibility: visible;
+          opacity: 1; }
+        .bg-02 .featured-box .feature-card:hover::before {
+          height: 100%; }
+        .bg-02 .featured-box .feature-card::before {
+          position: absolute;
+          content: "";
+          background: #fdc800;
+          opacity: 0.8;
+          width: 100%;
+          top: 0;
+          height: 0;
+          transition: ease-in-out 0.4s;
+          z-index: 1; }

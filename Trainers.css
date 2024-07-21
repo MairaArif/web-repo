@@ -1,0 +1,41 @@
+.team {
+    padding: 50px 0px;
+    position: relative;
+    overflow: hidden; }
+    @media screen and (max-width: 576px) {
+      .team .item {
+        text-align: center; } }
+    .team .team-card {
+      position: relative;
+      display: block;
+      padding: 20px 25px; }
+      .team .team-card .image-team {
+        overflow: hidden;
+        display: inline-block;
+        margin-bottom: 10px; }
+      .team .team-card .team-content {
+        display: block;
+        text-align: center; }
+        .team .team-card .team-content h3 {
+          font-size: 18px;
+          font-weight: 500;
+          color: #002147;
+          padding: 0 0 5px 0; }
+        .team .team-card .team-content p {
+          display: block;
+          font-size: 15px;
+          color: #444444;
+          padding: 0 0 10px 0; }
+        .team .team-card .team-content ol li {
+          display: inline-block;
+          height: 30px;
+          width: 30px;
+          line-height: 30px;
+          text-align: center;
+          background: #002147;
+          color: #fff;
+          transition: ease-in-out 0.5s;
+          padding: 0 5px;
+          position: relative; }
+          .team .team-card .team-content ol li:hover {
+            background: #fdc800; }
